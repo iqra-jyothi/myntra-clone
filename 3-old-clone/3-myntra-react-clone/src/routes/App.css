@@ -1,0 +1,25 @@
+.slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    width: 180px;
+    height: 100%;
+    background-color:white; /* Matches Bootstrap's bg-body-tertiary */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Or any background color you want */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visibility */
+    padding: 10px 20px; /* Adjust padding for spacing */
+  }
+  /* .main-content {
+    margin-bottom: 80px; /* Adjust this value to match the height of the header 
+  } */
+
